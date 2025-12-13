@@ -1,6 +1,20 @@
-html {background: orange;}
-a {margin-right: 10px;}
+html { background: #f4f7fb; }
+a { margin-right: 10px; }
 
+/* body achtergrond */
+body {
+  background: #f4f7fb; /* lichtgrijs-blauw; kies kleur naar wens */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-
+/* gecentreerde content-wrapper */
+.container {
+  max-width: 900px;   /* pas aan: de "website-breedte" */
+  margin: 40px auto;  /* centreert en geeft verticale ruimte */
+  background: #ffffff; /* witte achtergrond voor de site */
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 6px;
+}
 
